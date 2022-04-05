@@ -3,9 +3,9 @@
 ## Declarações do Desenvolvedor
 
 O projeto tem propósito didático, no exercício e treino de; 
-*Persistência de dados.
-*Construção de pacotes e classes no formato Model View Controller para associação e ordem do sistema.
-*Implementação de ramificação versional em git e github, no intuito de melhorias para o projeto.
+* Persistência de dados.
+* Construção de pacotes e classes no formato Model View Controller para associação e ordem do sistema.
+* Implementação de ramificação versional em git e github, no intuito de melhorias para o projeto.
 
 O Software foi desenvolvido em Java com a IDE NetBeans. Na persistência de dados, através da ferramenta de pacotes de servidores XAMPP, uso o MYSQL MariaDB.
 
