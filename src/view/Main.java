@@ -369,7 +369,7 @@ public class Main extends javax.swing.JFrame {
         if ((txtCpf.getText().equals(""))||(txtNome.getText().equals(""))||
                 (txtSobrenome.getText().equals(""))||(txtFone.getText().equals(""))
                 ||(txtLogradouro.getText().equals(""))) {
-            JOptionPane.showMessageDialog(null, "Preencha todos os campos.");
+            JOptionPane.showMessageDialog(null, "Preencha todos os campos obrigatórios.");
         } else {
         String id, cpf, nome, sobrenome, email, fone, logradouro;
         cpf = txtCpf.getText();
@@ -411,7 +411,7 @@ public class Main extends javax.swing.JFrame {
     private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateActionPerformed
        if ((txtCpf.getText().equals(""))||(txtNome.getText().equals(""))||(txtSobrenome.getText().equals(""))
                ||(txtFone.getText().equals(""))||(txtLogradouro.getText().equals(""))) {
-            JOptionPane.showMessageDialog(null, "Preencha todos os campos.");
+            JOptionPane.showMessageDialog(null, "Preencha todos os campos obrigatórios.");
         } else {
         dto.setId(Integer.parseInt(txtId.getText()));
         dto.setCpf(txtCpf.getText());
